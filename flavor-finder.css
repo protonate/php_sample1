@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* start the sliders */
+/* .slider-area {height: 184px; width: 49px;float:left;margin: 0 31px 0 0;} */
+.ff-criteria {
+	float: left; 
+	height: 232px;
+	width: 400px; 
+	margin: 25px 0 0 30px;}
+	
+.ff-criteria .ff-sliders  { height: 195px; float:left;margin: 0 0 0 0; }
+	
+.slider {color: #ffffff; width: 48px; height: 195px; float: left; margin: 0 31px 0 0; background: none; cursor:pointer; left: -1px; cursor: pointer;}
+#criteria1 a {background: url('images/bar-meaty') no-repeat; width: 49px; border: none; outline: none;left: -1px; cursor: pointer;}
+#criteria2 a {background: url('images/bar-salty') no-repeat; width: 49px; border: none; outline: none; left: -1px; cursor: pointer;}
+#criteria3 a {background: url('images/bar-umami') no-repeat; width: 49px; border: none; outline: none;  left: -1px; cursor: pointer;}
+#criteria4 a {background: url('images/bar-roasted') no-repeat; width: 49px; border: none; outline: none; left: -1px; cursor: pointer;}
+#criteria5 a {background: url('images/bar-brothy') no-repeat; width: 49px; border: none; outline: none; left: -1px; cursor: pointer;}
+
+.slider-style { border: none; }
+.slider-footer {
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	height: 26px;
+	width: 49px;
+	border-bottom: thin solid #E6E6E6;
+}
+
+.cursor-pointer {cursor: pointer;}
+
+#results-status {
+	
+	position: relative;
+	top: -20px;
+	left: -7px;
+	padding-top: 5px;
+	padding-left: 5px;
+	color: white;
+	background-color: #cccccc;
+	width: 120px;
+	height: 20px;
+
+}
